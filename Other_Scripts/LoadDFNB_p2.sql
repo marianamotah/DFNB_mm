@@ -1,16 +1,13 @@
 /*****************************************************************************************************************
 NAME:    LoadDFNB_p2
-PURPOSE: Load DFNB_p2
-SUPPORT: Jaussi Consulting LLC
-		 www.jaussiconsulting.net
-		 jon@jaussiconsulting.net
-MODIFICATION LOG:
+
 Ver      Date        Author        Description
 -----   ----------   -----------   -------------------------------------------------------------------------------
-1.0     11/30/2020   MarianaMota  1. Creation of the Script
+1.0     12/13/2020   MarianaMota  1. Creation of the Script
 RUNTIME: 
 Approx. 1 min
-NOTES: Project 2 + Project 1 Added Transaction tables
+NOTES:
+includes P1 tables + extra 2 for project two
 ******************************************************************************************************************/
 
 -- 1) Load dbo.tblCustomerDim.sql

@@ -1,33 +1,29 @@
 /*****************************************************************************************************************
-NAME:    DataOutputDFNB_p1
-PURPOSE: Create the output for all views created on P1
-SUPPORT: Jaussi Consulting LLC
-		 www.jaussiconsulting.net
-		 jon@jaussiconsulting.net
-MODIFICATION LOG:
+NAME:    DataOutputDFNB_p2
+PURPOSE: output Project two
+
 Ver      Date        Author        Description
 -----   ----------   -----------   -------------------------------------------------------------------------------
-1.0     11/13/2020   MarianaMota  1. Creation of the Script for output
- 
+1.0     13/12/2020   MarianaMota  1. 
 RUNTIME: 
 Approx. 1 min
-
+NOTES: ALL VIEWS - rapid view
 ******************************************************************************************************************/
 
 SELECT *
-  FROM dbo.v_AccountsClosed;
+  FROM dbo.v_BranchesTransactions;
 
 SELECT *
-  FROM dbo.v_AccountsOpen;
+  FROM dbo.v_CustomersFeeAmounts;
 
 SELECT *
-  FROM dbo.v_AverageBalanceperYear;
+  FROM dbo.v_FeeAmounts;
 
 SELECT *
-  FROM dbo.v_Customers;
+  FROM dbo.v_OtherBranches;
 
 SELECT *
-  FROM dbo.v_LoansperBranch;
+  FROM dbo.v_TopCustomers;
 
 SELECT *
-  FROM dbo.v_TotalAccounts;
+  FROM dbo.v_Transactionsperyear;
